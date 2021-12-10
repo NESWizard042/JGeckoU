@@ -17,6 +17,30 @@ It is the most advanced Wii U game hack/cheat development tool which is used by 
 
 A YouTube video visually showing the full setup guide can be found [here](https://www.youtube.com/watch?v=Uk7DhEdSfxA).
 
+## Donator features
+Since the application took months or even years to develop and I worked on it alone, I made some features of JGecko U donator only. If you appreciate this application and want to unlock extra features (mainly useful for code creation and development), feel free to become a donator on the Donator tab in JGecko U. The following features will become available after donator license activation:
+
+**Disassembler**
+* Add Dump Registers Hook: Adds an assembly hook to dump values of registers of interest
+* Add Dump Structures Hook: Adds an assembly hook dump structures of interest
+* Insert Hook: Allows inserting assembly instructions at the current address in the disassembler (performs a jump to the injected assembly and a jump to safely return after execution)
+* Delete Hook: Removes an inserted hook again
+* Parse Immediate: Finds corresponding lis/ori or lis/addi etc. pairs (which setup the same register) and gets the address referenced by both of them
+
+**Cafe Code Creation**
+* Code Wizard: Supports creating all codetypes via easy to use dialogs and input components
+
+**General**
+* Watchlist: Allows watching the current values of multiple addresses (including pointer support and view modes)
+
+**Assembly**
+* Obfuscate Assembly: Allows obfuscating assembly sources with mathematical tricks to make reverse engineering hard (note: this feature is experimental and may not be completely stable. Intended to be used on simple and short assembly RAM writes)
+* Parse IDA Pro ASM File: Allows loading assembly instructions from an IDA Pro .asm file
+
+**View Modes**
+* Memory Viewer View Mode: Allows switching the view mode of all data in the memory viewer
+* Search Tab View Mode: Allows switching the view mode of all results in the search tab
+
 ## Feature Requests/Problems
 You can post them in one of the following places:
 * [GitHub issues](https://github.com/BullyWiiPlaza/JGeckoU/issues)
